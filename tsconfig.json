@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2021"],
+        "module": "CommonJS",
+        "target": "ES2021",
+
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitOverride": true,
+
+        "declaration": false,
+        "baseUrl": ".",
+        "outDir": "./lib"
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}

@@ -1,0 +1,11 @@
+mixer:
+  enable: true
+
+crossChat:
+  enable: true
+  token: ''
+  channels:
+    - ''
+
+simpleMentions:
+  enable: true

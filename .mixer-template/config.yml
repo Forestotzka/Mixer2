@@ -1,0 +1,17 @@
+# Display Language ('en_US' | 'ja_JP')
+language: ''
+
+# Path of the Minecraft server directory
+directoryPath: ''
+
+# JVM arguments to start the Minecraft server
+jvmArguments:
+    - '-Xmx2G'
+    - '-Xms2G'
+    - '-jar'
+    - 'server.jar'
+
+rconClient:
+  host: 'localhost'
+  port: 25575
+  password: ''
