@@ -1,1 +1,3 @@
-export type Language = 'en_US' | 'ja_JP';
+export type Language =
+    | 'en_US'
+    | 'ja_JP';
