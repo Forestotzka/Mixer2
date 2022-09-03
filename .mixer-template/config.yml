@@ -6,10 +6,10 @@ directoryPath: ''
 
 # JVM arguments to start the Minecraft server
 jvmArguments:
-    - '-Xmx2G'
-    - '-Xms2G'
-    - '-jar'
-    - 'server.jar'
+  - '-Xmx2G'
+  - '-Xms2G'
+  - '-jar'
+  - 'server.jar'
 
 rconClient:
   host: 'localhost'
