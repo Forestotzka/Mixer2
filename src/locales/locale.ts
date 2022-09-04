@@ -2,7 +2,18 @@ import { CONFIG } from '..';
 import { Language } from '../types/Language';
 import { Locales } from '../types/Locales';
 
+const languages: Language[] = ['en_US', 'ja_JP'];
+
 const locales: Locales = {};
+
+/**
+ * 全ての言語別のテキストをロードします
+ */
+export async function loadAllLocale(): Promise<void> {
+    for (const lang of languages) {
+        await loadLocale(lang);
+    }
+}
 
 /**
  * 言語別のテキストをロードします
